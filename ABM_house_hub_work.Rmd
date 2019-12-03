@@ -5,13 +5,11 @@ institute: "Department of Public Health, National Taiwan University"
 date: "2016/06/30"
 
 output:
-  html_document:
-    theme: lumen
-    highlight: tango
+  md_document:
+  # html_document:
+  #   theme: lumen
+  #   highlight: tango
   
-  # prettydoc::html_pretty:
-  #   theme: hpstr  #leonids 
-  #   highlight: github
 ---
 
 ## Introduction {#TOP}
