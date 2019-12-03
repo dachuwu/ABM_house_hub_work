@@ -15,7 +15,7 @@ output:
 ---
 
 ## Introduction {#TOP}
-  While Equation-based compartmental models were frequently used to investigate the transmission dynamics of infectious diseases (e.g. measles, rubella, smallpox, etc.), it is difficult to apply such method to disease with complicated natural history or population heterogeneity. This project applied an agent-based transsmission model with classic susceptible-infectious-recovery process, and household-hub-workplace mobility structurein order to model outbreaks under heterogeneous settings. The designing process and report of our model follows the ODD protocol for standard and transparent communication of agent-based models (Grimm et al.,2006, Grimm et al.,2010)
+  While Equation-based compartmental models were frequently used to investigate the transmission dynamics of infectious diseases (e.g. measles, rubella, smallpox, etc.), it is difficult to apply such method to disease with complicated natural history or population heterogeneity. This project applied an agent-based transsmission model with classic susceptible-infectious-recovery process, and household-hub-workplace mobility structurein order to model outbreaks under heterogeneous settings. The designing process and report of our model follows the ODD protocol for standard and transparent communication of agent-based models (Grimm et al.,2006, Grimm et al.,2010) The souce code for this model can be found in https://github.com/dachuwu/ABM_house_hub_work.
 
 ## The protocol
 1. [Purpose](#S1)
@@ -109,7 +109,7 @@ We assume each individual has fixed commuting pathways everyday. Suppose there a
 
 ## 8. Implementation: a demo example {#S8}
 
-In the section, I will demonstrate how to use the R program provided in _____git hub repo______ to simulate an outbreak in the household-hub-workplace setting. You may use the program to run your simulation, tune the parameters at interest, and evaluated potential interventions on your own.
+In the section, I will demonstrate how to use the R program provided in https://github.com/dachuwu/ABM_house_hub_work to simulate an outbreak in the household-hub-workplace setting. You may use the program to run your simulation, tune the parameters at interest, and evaluated potential interventions on your own.
 
 i. First, we need to load the required packages and the programs. While the simulator was mainly written by R basic functions, some plotting functions will require __reshape2__ and __ggplot2__ to carry out.
 ```{r message=FALSE, warning=FALSE}
