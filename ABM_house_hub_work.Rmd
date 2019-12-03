@@ -5,10 +5,9 @@ institute: "Department of Public Health, National Taiwan University"
 date: "2016/06/30"
 
 output:
-  md_document:
-  # html_document:
-  #   theme: lumen
-  #   highlight: tango
+  html_document:
+    theme: lumen
+    highlight: tango
   
 ---
 
